@@ -1,0 +1,126 @@
+body{
+    background-image: url(./images/skull.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+    font-family: Arial, Helvetica, sans-seri
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(240, 83, 83, 0.473);
+}
+
+#our_offers{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    column-gap: 18%;
+}
+
+.offers{
+    background-color: black;
+    width: 170%;
+    height: 280px;
+    margin: 350px 0px 0px -50px;
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#photoshoot{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#photoshoot_icon{
+    width: 100px;
+    height: 70px;
+    background-image: url(./images/outdoorphoto.jpeg);
+    background-size: cover;
+}
+
+#studioshoot{
+    color: white;
+    text-align: center;
+  
+}
+
+#studioshoot_icon{
+    width: 100px;
+    height: 70px;
+    background-image: url(./images/STUDIO.png);
+    background-size: cover;
+}
+
+#video{
+    color: white;
+    text-align: center;
+}
+
+#video_icon{
+    width: 100px;
+    height: 70px;
+    background-image: url(./images/video.jpeg);
+    background-size: cover;
+}
+    
+.butns{
+    width: 75px;
+    height: 30px;
+    border-color: rgba(240, 83, 83, 0.61);
+    background-color: black;
+    opacity: 1;
+    filter: alpha(opacity=40);
+    border-radius: 10px;
+    color: white;
+}
+
+.butns:hover{
+    cursor: pointer;
+}
+footer{
+    width: 170px;
+    margin: 0px 0px 0px 550px;
+    background-color: white;
+    color:black;
+    opacity: 0.6;
+    filter: alpha(opacity=40);
+}
