@@ -5,10 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cloudstudio.com</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+  </head>
+  <body>
+  
+  <div id="demo" class="carousel slide" data-ride="carousel">
+  
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      <li data-target="#demo" data-slide-to="5"></li>
+      <li data-target="#demo" data-slide-to="6"></li>
+      <li data-target="#demo" data-slide-to="7"></li>
+      <li data-target="#demo" data-slide-to="8"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 698px;">
+        <img src="./images/skull.jpg" alt="cloud studio" width="100%" height="100px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/bartu2.jpg" alt="Chicago" width="100%" height="300px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/bartu4.jpg" alt="New York" width="100%" height="300px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/bartu3.jpg" alt="New York" width="100%" height="300px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/csdavido.jpg" alt="Chicago" width="100%" height="300px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/csdavido2.jpg" alt="Chicago" width="100%" height="300px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/csbucky.jpg" alt="Chicago" width="100%" height="300px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/csJaredo.jpg" alt="Chicago" width="100%" height="300px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/csecool.jpg" alt="Chicago" width="100%" height="300px">
+      </div>
+      <div class="carousel-item" style="height: 698px;">
+        <img src="./images/cs9.jpg" alt="Chicago" width="100%" height="300px">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  
 </head>
 <body>
-    <div class="dropdown" style="float:left;">
-        <button class="dropbtn">Menue</button>
+    <div class="dropdown" id="dropdown1" style="float:left;">
+        <button class="dropbtn"><b>MENU</b></button>
         <div class="dropdown-content" style="left:0;">
           <a href="#">Home</a>
           <a href="#">About Us</a>
@@ -16,8 +89,8 @@
         </div>
       </div>
       
-      <div class="dropdown" style="float:right;">
-        <button class="dropbtn">BOOK US</button>
+      <div class="dropdown" id="dropdown2" style="float:right;">
+        <button class="dropbtn"><b>BOOK US</b></button>
         <div class="dropdown-content">
           <a href="#">Outdoor Shoot</a>
           <a href="#">Studio Shoot</a>
@@ -27,20 +100,26 @@
       
     <div id="our_offers">
         <div class="offers" id="photoshoot">
-            <div id="photoshoot_icon"></div>
-            <h3>Photo Shoot</h3>
+            <!-- <div id="photoshoot_icon"></div> -->
+            <br>
+            <br>
+            <h3>Outdoor Shoot</h3>
             <p>rem natus nesciunt molestiae a labore, <br>ducimus reprehenderit, possimus placeat!</p>
             <button class="butns" id="photoshoot_btn">More</button>
 
         </div>
         <div class="offers" id="studioshoot">
-            <div id="studioshoot_icon"></div>
+            <!-- <div id="studioshoot_icon"></div> -->
+            <br>
+            <br>
             <h3>Studio Shoot</h3>
             <p>rem natus nesciunt molestiae a labore, <br>ducimus reprehenderit, possimus placeat!</p>
             <button class="butns" id="studioshoot_btn">More</button>
         </div>
         <div class="offers" id="video">
-            <div id="video_icon"></div>
+            <!-- <div id="video_icon"></div> -->
+            <br>
+            <br>
             <h3>Video Shoot</h3>
             <p>rem natus nesciunt molestiae a labore, <br>ducimus reprehenderit, possimus placeat!</p>
             <button class="butns" id="videoshoot_btn">More</button>

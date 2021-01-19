@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/skull.jpg);
+    /* background-image: url(./images/skull.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -14,12 +14,27 @@ body{
     width: 150px;
     opacity: 0.8;
     filter: alpha(opacity=40);
-    font-family: Arial, Helvetica, sans-seri
+    font-family: Arial, Helvetica, sans-seri;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    
+    /* margin: -830px 0px 0px 0px; */
+}
+
+#dropdown1{
+    margin: -680px 0px 0px 80px;
+    
+}
+
+#dropdown2{
+    margin: -680px 90px 0px 0px;
 }
 
 .dropdown-content {
@@ -29,6 +44,7 @@ body{
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
 }
 
 .dropdown-content a {
@@ -45,23 +61,27 @@ body{
 }
 
 .dropdown:hover .dropbtn {
-    background-color: rgba(240, 83, 83, 0.473);
+    background-color: rgba(245, 77, 77, 0.541);
 }
 
 #our_offers{
     display: grid;
-    grid-template-columns: 20% 20% 20%;
-    column-gap: 18%;
+    grid-template-columns: 15% 15% 15%;
+    column-gap: 15%;
 }
 
 .offers{
     background-color: black;
     width: 170%;
-    height: 280px;
-    margin: 350px 0px 0px -50px;
+    height: 220px;
+    margin: -280px 0px 0px 93px;
     opacity: 0.7;
     filter: alpha(opacity=40);
     font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 #photoshoot{
@@ -70,12 +90,12 @@ body{
     text-align: center;
 }
 
-#photoshoot_icon{
+/* #photoshoot_icon{
     width: 100px;
     height: 70px;
     background-image: url(./images/outdoorphoto.jpeg);
     background-size: cover;
-}
+} */
 
 #studioshoot{
     color: white;
@@ -83,27 +103,27 @@ body{
   
 }
 
-#studioshoot_icon{
+/* #studioshoot_icon{
     width: 100px;
     height: 70px;
     background-image: url(./images/STUDIO.png);
     background-size: cover;
-}
+} */
 
 #video{
     color: white;
     text-align: center;
 }
 
-#video_icon{
+/* #video_icon{
     width: 100px;
     height: 70px;
     background-image: url(./images/video.jpeg);
     background-size: cover;
-}
+} */
     
 .butns{
-    width: 75px;
+    width: 100px;
     height: 30px;
     border-color: rgba(240, 83, 83, 0.61);
     background-color: black;
